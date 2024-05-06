@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 50%;
+    height: 400px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(56, 56, 55, 0.75);
+    padding-top: 10px;
+    
+}
+
+.container:hover  {
+    transform: scale(1.05);
+}
